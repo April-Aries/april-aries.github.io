@@ -51,24 +51,24 @@ export const siteConfig: Config = {
 */
 export const SOCIAL_LINKS: Array<SocialLink> = [
   {
+    icon: "mdi:instagram",
+    friendlyName: "Instagram",
+    link: "https://instagram.com/luke.0419",
+  },
+  {
     icon: "mdi:github",
     friendlyName: "Github",
-    link: "https://github.com/kirontoo/astro-theme-cody",
+    link: "https://github.com/april-aries",
   },
   {
     icon: "mdi:linkedin",
     friendlyName: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/bo-yu-chen-ab8a402a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BynCzbYGuQ2S%2BEat%2FlLzb%2BQ%3D%3D",
   },
   {
     icon: "mdi:email",
     friendlyName: "email",
-    link: "mailto:ndangamy@gmail.com",
-  },
-  {
-    icon: "mdi:rss",
-    friendlyName: "rss",
-    link: "/rss.xml"
+    link: "mailto:luke041510@gmail.com",
   }
 ];
 
