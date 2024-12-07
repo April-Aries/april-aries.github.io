@@ -51,11 +51,6 @@ export const siteConfig: Config = {
 */
 export const SOCIAL_LINKS: Array<SocialLink> = [
   {
-    icon: "mdi:discord",
-    friendlyName: "Discord",
-    link: "https://discord.com/AprilAries#6477",
-  },
-  {
     icon: "mdi:instagram",
     friendlyName: "Instagram",
     link: "https://instagram.com/luke.0419",
