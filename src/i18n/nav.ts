@@ -9,6 +9,38 @@
 import type { SupportedLanguage } from "src/utils/i18n";
 
 export default {
+    "zh_TW": {
+        "home": {
+            text: "主頁",
+            slug: ""
+        },
+        "about": {
+            text: "關於",
+            slug: "about"
+        },
+        "blog": {
+            text: "Blog",
+            slug: "blog",
+            route: "/blog/pages/1"
+        },
+        "projects": {
+            text: "專案",
+            slug: "projects",
+            route: "/projects/pages/1"
+        },
+        "archive": {
+            text: "文章",
+            slug: "archive"
+        },
+        "tags": {
+            text: "標籤",
+            slug: "tags"
+        },
+        "series": {
+            text: "系列",
+            slug: "series"
+        }
+    },
     "en": {
         "home": {
             text: "Home",
@@ -38,38 +70,6 @@ export default {
         },
         "series": {
             text: "Series",
-            slug: "series"
-        }
-    },
-    "es": {
-        "home": {
-            text: "Página Principal",
-            slug: ""
-        },
-        "about": {
-            text: "Acerca De",
-            slug: "about"
-        },
-        "blog": {
-            text: "Blog",
-            slug: "blog",
-            route: "/blog/pages/1"
-        },
-        "projects": {
-            text: "Proyectos",
-            slug: "projects",
-            route: "/projects/pages/1"
-        },
-        "archive": {
-            text: "Archivo",
-            slug: "archive"
-        },
-        "tags": {
-            text: "Etiquetas",
-            slug: "tags"
-        },
-        "series": {
-            text: "Serie",
             slug: "series"
         }
     }

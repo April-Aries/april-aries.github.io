@@ -7,15 +7,41 @@
 import type { SupportedLanguage } from "src/utils/i18n";
 
 export default {
-    "en": {
+    "zh_TW": {
         "site.title": {
-            text: "Astro Theme Cody"
+            text: "AA's blog"
         },
         "site.description": {
-            text: "A minimalist blog theme built with Astro. A quick and easy starter build for anyone who wants to start their own blog."
+            text: ""
         },
         "profile.description": {
-            text: "your bio description"
+            text: "正在學習的工程師、熱忱的教育者、未來的駭客"
+        },
+        "blog.lastUpdated": {
+            text: "最近一次更新："
+        },
+        "sidebar.tableOfContents": {
+            text: "目錄"
+        },
+        "project.platform": {
+            text: "PLATAFORMA"
+        },
+        "project.stack": {
+            text: "STACK"
+        },
+        "project.website": {
+            text: "WEBSITE"
+        }
+    },
+    "en": {
+        "site.title": {
+            text: "AA's blog"
+        },
+        "site.description": {
+            text: ""
+        },
+        "profile.description": {
+            text: "On my path to an engineer, passionate teacher, and future hacker" 
         },
         "blog.lastUpdated": {
             text: "Last updated:"
@@ -28,32 +54,6 @@ export default {
         },
         "project.stack": {
             text: "STACK"
-        },
-        "project.website": {
-            text: "WEBSITE"
-        }
-    },
-    "es": {
-        "site.title": {
-            text: "Astro Theme Cody"
-        },
-        "site.description": {
-            text: "Un tema de blog minimalista creado con Astro. Un tema de inicio rápido y sencillo para cualquiera que quiera crear su propio blog."
-        },
-        "profile.description": {
-            text: "tu descripción biográfica"
-        },
-        "blog.lastUpdated": {
-            text: "Última actualización:"
-        },
-        "sidebar.tableOfContents": {
-            text: "Tabla de contenidos"
-        },
-        "project.platform": {
-            text: "PLATAFORMA"
-        },
-        "project.stack": {
-            text: "PILA"
         },
         "project.website": {
             text: "WEBSITE"
