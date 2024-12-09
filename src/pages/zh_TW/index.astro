@@ -74,25 +74,4 @@ const tech: Array<{ title: string; desc: string; href: string }> = [
 		</ul>
 	</section>
 
-	<section class="mt-16 mb-4">
-		<h2 class="title">Technologies</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				tech.map(({ href, title, desc }) => (
-					<li>
-						<a
-							href={href}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="cody-link inline-block"
-						>
-							{title}
-						</a>
-						: <p class="inline-block sm:mt-2">{desc}</p>
-					</li>
-				))
-			}
-		</ul>
-	</section>
-
 </BaseLayout>
