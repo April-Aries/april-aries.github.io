@@ -2,6 +2,7 @@
 title: 'Vulnhub Venom 1 Writeup'
 description: 'Writeup of vulnhub venom 1, as 113-1 ISAD WEEK6 Assignment'
 pubDate: '2024-11-16'
+tags: ["writeup"]
 ---
 
 剛好是高等資安攻防 WEEK6 的作業，就順便放上來作為本網站第一篇 writeup
